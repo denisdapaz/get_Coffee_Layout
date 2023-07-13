@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+
+}
+
+/*----------------HEADER---------------*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 13vh;
+    box-shadow: 0px 2px 2px #242426;
+    flex-wrap: wrap;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12vw;
+    flex-wrap: wrap;
+}
+
+
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 20vw;
+
+    flex-wrap: wrap;
+}
+
+
+header ul li {
+    color: black;
+}
+
+/*-------------------main ---------------*/
+
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.sessao01 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 36.6%;
+    height: 35vw;
+    flex-wrap: wrap;
+}
+
+.pedido a {
+
+    text-align: center;
+    background: #FCA60F;
+    padding: 10px;
+    height: 70px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.redes ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+.logo_insta {
+    width: 27px;
+}
+
+.sessao_copo_cafe {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 50%;
+}
+
+.corpo_copo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 12vw;
+    height: 20vw;
+    margin-top: 5px;
+    background-image: url("../copo.png");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.tampa {
+    margin-bottom: 5px;
+}
+
+.corpo_copo p {
+    padding: 40px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
